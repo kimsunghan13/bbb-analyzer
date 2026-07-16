@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1783928585547,
+      "tag": "0000_cynical_ulik",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1784102235340,
+      "tag": "0001_mixed_tyger_tiger",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1784182397556,
+      "tag": "0002_fast_joseph",
+      "breakpoints": true
+    }
+  ]
+}
