@@ -1,0 +1,8 @@
+{
+  "buildCommand": "pnpm install --no-frozen-lockfile && pnpm run build",
+  "startCommand": "node dist/index.js",
+  "environmentVariables": {
+    "NODE_ENV": "production",
+    "PORT": "3000"
+  }
+}
