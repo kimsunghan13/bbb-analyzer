@@ -1,4 +1,19 @@
 {
   "buildCommand": "pnpm install --no-frozen-lockfile && pnpm run build",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist/public",
+  "functions": {
+    "api/**": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
